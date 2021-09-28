@@ -1,0 +1,28 @@
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th colspan="5" class="text-center">Listado de usuarios</th>
+        </tr>
+        <tr>
+            <th>Nombre de usuario</th>
+            <th>Correo electrónico</th>
+            <th>Fecha de nacimiento</th>
+            <th>Edad</th>
+            <th>Dirección</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of listado">
+            <td>{{item.name}}</td>
+            <td>{{item.email}}</td>
+            <td>{{item.fecha_nacimiento}}</td>
+            <td><span class="text-danger">Falta</span></td>
+            <td>{{item.ciudad}} - {{item.colonia}} - {{item.domicilio}}</td>
+
+
+
+        </tr>
+    </tbody>
+</table>
