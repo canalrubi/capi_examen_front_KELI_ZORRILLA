@@ -1,5 +1,7 @@
 # CapiExamenFrontKeliZorrilla
 
+# URL para el listado de usuarios: /usuarios/listado
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.2.
 
 ## Development server
